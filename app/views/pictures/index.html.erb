@@ -1,4 +1,5 @@
 <h1>一覧</h1>
+<p><%= notice %></p>
 <table>
   <tr>
     <th>Image</th>
@@ -9,7 +10,8 @@
     <td><%= image_tag picture.image.url %></td>
     <td><%= picture.content %></td>
     <td><%= link_to '詳細を確認する', picture_path(picture.id) %></td>
-    <td><%= link_to "編集する", edit_picture_path(picture.id) %></td>
+    <td><%= link_to "編集する", edit_picture_path(picture.id), data: { confirm: '本当に編集していいですか？' } %></td>
+    <td><%= link_to "削除する", picture_path(picture.id), method: :delete, data: { confirm: '本当に削除していいですか？' } %></td>
   </tr>
 <% end %>
 </table>
