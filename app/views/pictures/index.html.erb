@@ -2,11 +2,13 @@
 <p><%= notice %></p>
 <table>
   <tr>
+    <th>ユーザー名</th>
     <th>Image</th>
     <th>内容</th>
   </tr>
 <% @pictures.each do |picture| %>
   <tr>
+    <td><%= picture.user.name %></td>
     <td><%= image_tag picture.image.url %></td>
     <td><%= picture.content %></td>
     <td><%= link_to '詳細を確認する', picture_path(picture.id) %></td>
