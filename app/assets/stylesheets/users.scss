@@ -1,3 +1,30 @@
 // Place all the styles related to the users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+ .sign_up_page{
+  display: flex;
+  justify-content: center;
+ }
+
+.sign_up_page ul {
+  border: #999 solid 1px;
+}
+
+.sign_up_page li {
+  width: 100%;
+  list-style-type: none;
+  margin: 0 0 10px 0;
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.sign_up_page ul h1{
+  margin: 5rem;
+}
+
+.user_detail {
+  margin: auto;
+  width: 500px;
+  border: thin solid black;
+}

@@ -1,3 +1,26 @@
 // Place all the styles related to the sessions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+// .user_page{
+//   display: flex;
+//   justify-content: center;
+// }
+
+.login_page {
+  border: #999 solid 1px;
+  padding: 2rem;
+}
+
+.login_list {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 20px;
+  text-align: center;
+}
+
+.login_logo{
+  margin: 2rem;
+
+}

@@ -1,3 +1,5 @@
-<h1><%= @picture.user.name %>さんの詳細画面</h1>
-<p>image:   <%= image_tag @picture.image.url %></p>
-<p>内容: <%= @picture.content %></p>
+<h2><%= @picture.user.name %>さんの詳細画面</h2>
+<div class="user_page">
+  <p>image:<br><%= image_tag @picture.image.url %></p>
+  <p>内容: <%= @picture.content %></p>
+</div>

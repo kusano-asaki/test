@@ -1,3 +1,66 @@
 // Place all the styles related to the pictures controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+html {
+  text-align: center;
+  background-color: #F2F3F5;
+}
+
+body{
+  background-color: #F2F3F5;
+}
+
+ul {
+  list-style: none;
+  background-color: #F2F3F5;
+  margin: 0;
+  padding-left: 0;
+}
+
+.edit_tag li {
+  display: inline-block;
+}
+
+h1 {
+  margin: 0;
+  background-color: #F2F3F5;
+}
+
+.content_box {
+  padding: 0.5em 1em;
+  margin-top: 1em;
+  font-weight: bold;
+  color: #6091d3;
+  background: #FFF;
+  border: solid #fff;
+  border-radius: 10px;
+}
+
+.simple_button {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+  background: #AAC9FF;
+  transition: .4s;
+  text-decoration: none;
+}
+
+.simple_button:hover {
+  background: #ECECEC;
+}
+
+.user_page {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #F2F3F5;
+  background: #FFF;
+  border: 5px solid #F2F3F5;
+  border-radius: 10px;
+  padding: 10px;
+}
+.field {
+  background-color: #fff;
+  display: inline-block;
+}

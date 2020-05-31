@@ -1,2 +1,7 @@
-<h1><%= @user.name %>のページ</h1>
-<p>メールアドレス: <%= @user.email %></p>
+<div class="user_detail">
+    <h3><%= @user.name %>のページ</h3><br>
+    <h3>メールアドレス: <%= @user.email %></h3>
+</div>
+  <div class="simple_button">
+    <%= link_to '新規投稿へ', new_picture_path %>
+  </div>
