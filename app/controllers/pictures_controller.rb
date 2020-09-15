@@ -22,6 +22,8 @@ class PicturesController < ApplicationController
   end
 
   def show
+    @comments = @picture.comments
+    @comment = @picture.comments.build
   end
 
   def edit
